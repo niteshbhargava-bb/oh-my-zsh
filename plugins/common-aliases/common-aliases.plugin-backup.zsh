@@ -1,12 +1,4 @@
 # Advanced Aliases.
-alias tomcat='cd /home/niteshbhargava/softwares/tomcat'
-alias bbc='cd /home/niteshbhargava/codebase/bb-container'
-alias csdb='cd /home/niteshbhargava/codebase/bb-container/csdb-container'
-alias bankdataupload='/home/niteshbhargava/codebase/bb-container/bankdataupload-container'
-alias sql='mysql -ucloud -pscape brint'
-alias mis='cd /home/niteshbhargava/codebase/bb-container/mis-container'
-alias uatP='sh /home/niteshbhargava/uatP'
-alias mvncci='mvn clean compile install -DskipTests -T4'
 # Use with caution
 #
 
@@ -21,7 +13,7 @@ alias lS='ls -1FSsh'
 alias lart='ls -1Fcart'
 alias lrt='ls -1Fcrt'
 
-alias zshrc='${=EDITOR} ~/.zshrc' # Quick access to the ~/.zshrc file
+alias zshrc='$EDITOR ~/.zshrc' # Quick access to the ~/.zshrc file
 
 alias grep='grep --color'
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS} '
@@ -51,6 +43,8 @@ alias help='man'
 alias p='ps -f'
 alias sortnr='sort -n -r'
 alias unexport='unset'
+
+alias whereami=display_info
 
 alias rm='rm -i'
 alias cp='cp -i'
